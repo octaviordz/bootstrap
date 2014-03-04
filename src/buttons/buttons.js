@@ -1,12 +1,12 @@
 angular.module('ui.bootstrap.buttons', [])
 
 .constant('buttonConfig', {
-  activeClass: 'active',
+  activeClass: 'rc-admin-active',
   toggleEvent: 'click'
 })
 
 .controller('ButtonsController', ['buttonConfig', function(buttonConfig) {
-  this.activeClass = buttonConfig.activeClass || 'active';
+  this.activeClass = buttonConfig.activeClass || 'rc-admin-active';
   this.toggleEvent = buttonConfig.toggleEvent || 'click';
 }])
 
