@@ -1,3 +1,6 @@
+# 0.8.0-rc-admin (2014-03-04)
+Changes to make it work with a scoped bootstrap css theme prefix/postfix by rc-admin.
+
 # 0.8.0 (2013-12-28)
 
 ## Features
